@@ -13,11 +13,11 @@ MAMP localhost sql server is on port 8889
 MAMP localhost apache server is on port 8888
 Apache document root is under /Applications/MAMP/htdocs
 
-to run php <script.php>  from localhost url is http://localhost:8888/<script.php>?<parameters for script>
+to run php <script.php\>  from localhost url is http://localhost:8888/<script.php\>?<parameters for script\>
 
 
 # Files
-1. json_object_<i>.json  <i> | 1, 2, 3   - 3 json object files used for testing.
+1. json_object_<i\>.json  <i\> | 1, 2, 3   - 3 json object files used for testing.
 2. db_setup.php - initial setup of testdb and json_data table (That will hold info read from json objects)
 3. json_read.php - the solution script
 
