@@ -31,12 +31,14 @@ run db_setup.php (http://localhost:8888/db_setup.php) to perform one time setup 
 1.2. create table json_data with fileds: id, name, value, timestame, and set name and id to be the primary key
 
 
-2.fetch JSON object from endpoint given as an argument and store in json_data table in testdb
+2.fetch JSON object from endpoint given as an argument and store in json_data table in testdb.
+
 run json_read.php and pass in 'json_url'  argument the endpoint location for the json object to store.
 
 script can be activated from both browser and command line (such that can be run as cron job)
 
 assuming json_object.json is located under apache document root (per described in General section above)
+
 to activate from command line script to extract info from json_object_1.json do:
 
    curl http://localhost:8888/json_read.php?json_url=http://localhost:8888/json_object_1.json
