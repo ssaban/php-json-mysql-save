@@ -23,8 +23,11 @@ to run php [SCRIPT.php]  from localhost url  http://localhost:8888/[SCRIPT.php]?
 
 # Solution and activation
 1. initialization
+
 run db_setup.php (http://localhost:8888/db_setup.php) to perform one time setup for:
+
 1.1. create dbname=testdb
+
 1.2. create table json_data with fileds: id, name, value, timestame, and set name and id to be the primary key
 
 
